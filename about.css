@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding-top: 5px;
+    padding-left: 20px;
+    background: rgba(0,0,0,0.8);
+
+}
+.navbar-brand h1{
+    font-size: 30px;
+    font-weight: 100;
+    color: #b3b3b3;
+    font-family: 'Montserrat', sans-serif;
+    animation-name: hot ;
+    animation-duration: 1s ;
+
+
+}
+.nav-item a:hover{
+    color:white !important;
+}
+.navbar-nav{
+    position: absolute;
+    right: 0px;
+    padding: 50px;
+   
+    
+}
+
+.nav-link{
+    color: #b3b3b3;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+        
+}
+
+
+
+
+.navbar-nav li{
+    padding: 10px;
+   
+    
+}
+.about{
+    width: 100%;
+    height: 893px;
+    background-color: #e3edf7;
+}
+.text-1 h1{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 10px;
+    color:transparent;
+    text-align: center;
+    font-size:x-large;
+    padding-top: 2%;
+    font-weight:bolder;
+    position: relative;
+    animation-name: text2;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+
+
+}
+@keyframes text2{
+    from {right: 500px;}
+    to {right: 0px;color: black;}
+    
+}
+.bar-1{
+    width:160px;
+    height:160px;
+    /*background: #b3b3b3;*/
+    position:relative;
+    margin-top: 70px;
+    margin-left: 10%;
+}
+.outer{
+    width:160px;
+    height:160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+    
+}
+.inner{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(0,0,0,0.2),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+}
+#html{
+    font-weight: 600;
+    color:black;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+
+    
+}
+.htmlCircle circle{
+    fill:none;
+    stroke:url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim1 2s linear forwards;
+}
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+@keyframes anim1{
+    100%{
+        stroke-dashoffset: 180;
+    }
+}
+.bar-2{
+    width:160px;
+    height:160px;
+    /*background: #b3b3b3;*/
+    position: absolute;
+    left: 45%;
+    top: 210px;
+
+    
+}
+#css{
+    font-weight: 600;
+    color:black;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+
+
+}
+.cssCircle circle{
+    fill:none;
+    stroke:url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim2 2s linear forwards;
+}
+@keyframes anim2{
+    100%{
+        stroke-dashoffset: 250;
+    }
+}
+.bar-3{
+    width:160px;
+    height:160px;
+    /*background: #b3b3b3;*/
+    position:absolute;
+    top: 210px;
+    margin-left: 80%;
+}
+.jsCircle circle{
+    fill:none;
+    stroke:url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim3 2s linear forwards;
+}
+@keyframes anim3{
+    100%{
+        stroke-dashoffset: 300;
+    }
+}
+#js{
+    font-weight: 600;
+    color:black;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+}
